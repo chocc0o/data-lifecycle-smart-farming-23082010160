@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* ── BACKGROUND HALAMAN UTAMA --------- */
+[data-testid="stAppViewContainer"] {
+    background-color: #f4f7f2;   /* warna latar halaman - hijau muda pucat */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ── SIDEBAR ─────── */
+[data-testid="stSidebar"] {
+    background-color: #1e3a2f;   
+}
+
+[data-testid="stSidebar"] * {
+    color: #e8f5e9 !important;  
+}
+
+/* Label selectbox di sidebar */
+[data-testid="stSidebar"] label {
+    color: #a5d6a7 !important;       font-size: 13px !important;
+    font-weight: 500 !important;
+}
+
+/* Teks pilihan di dalam selectbox sidebar */
+[data-testid="stSidebar"] .stSelectbox div {
+    color: #ffffff !important;   
+}
+
+
+/* ── JUDUL HALAMAN (H1) ─────── */
+h1 {
+    color: #1b5e20 !important;   
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.5px;
+}
+
+/* ── SUBJUDUL (H2) ───────*/
+h2 {
+    color: #2e7d32 !important;   
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+}
+
+/* ── SUBJUDUL KECIL (H3) ────── */
+h3 {
+    color: #388e3c !important;   
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+/* ── TEKS PARAGRAF / DESKRIPSI BIASA ──── */
+    .block-container {
+        padding-top: 2rem;         
+        padding-bottom: 1rem;
+    }
+
+    [data-testid="column"] {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+   p, .stMarkdown p {
+    color: #4a5568;              
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+/* ── JUDUL SECTION (section-title) ───── */
+.section-title {
+    font-size: 16px;             
+    font-weight: 600;
+    color: #2e7d32;              
+    border-bottom: 2px solid #c8e6c9;  
+    padding-bottom: 6px;
+    margin-bottom: 24px;
+    letter-spacing: 0.2px;
+}
+
+
+/* ── KPI CARD (kotak angka statistik) ── */
+.metric-card {
+    background: #ffffff;         
+    border-radius: 12px;         
+    padding: 12px 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-left: 4px solid #4caf50;  
+    margin-bottom: 4px;
+    margin-top: 0px;
+    transition: box-shadow 0.2s ease;
+}
+
+.metric-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);  
+}
+
+.metric-value {
+    font-size: 26px;             
+    font-weight: 700;
+    color: #1e3a2f;              
+    line-height: 1.2;
+}
+
+.metric-label {
+    font-size: 12px;             
+    color: #718096;              
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+
+/* ── GARIS PEMISAH (hr / ---) ──── */
+hr {
+    border: none;
+    border-top: 1px solid #d1e8d1;   
+    margin: 10px 0;
+}
+
+
+/* ── TABEL DATA (expander "Lihat Data Mentah") ─────*/
+[data-testid="stDataFrame"] {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+[data-testid="stDataFrame"] th {
+    background-color: #e8f5e9 !important;  
+    color: #1b5e20 !important;              
+    font-weight: 600 !important;
+}
+
+[data-testid="stDataFrame"] tr:hover {
+    background-color: #f1f8e9 !important;
+}
+
+
